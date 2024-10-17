@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "appa": {
+      "root": "apps/appa",
+      "buildCommand": "npm run build --prefix apps/appa",
+      "outputDirectory": "apps/appa/.next"
+    },
+    "appb": {
+      "root": "apps/appb",
+      "buildCommand": "npm run build --prefix apps/appb",
+      "outputDirectory": "apps/appb/.next"
+    }
+  }
+}
