@@ -1,10 +1,11 @@
 import React from 'react';
 
 const HolaMundo = ({ appName }) => {
-  return 
+  return (
     <h1 style={{ backgroundColor: 'red', color: 'white' }}>
       Hello from {appName}!!
-    </h1>;
+    </h1>
+  )
 };
 
 export default HolaMundo;
