@@ -2,7 +2,7 @@ import React from 'react';
 
 const HolaMundo = ({ appName }) => {
   return (
-    <h1 style={{ backgroundColor: 'blue', color: 'white' }}>
+    <h1 style={{ backgroundColor: 'yellow', color: 'black' }}>
       Hello from {appName}!!
     </h1>
   )
